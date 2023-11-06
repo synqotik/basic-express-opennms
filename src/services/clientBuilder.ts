@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig, AxiosInstance, getAdapter } from 'axios';
-import { API, Client } from 'opennms';
+import { Client } from 'opennms';
 import { AxiosWrapper } from './AxiosWrapper';
 
 const baseUrl = 'http://localhost:8980/opennms/';
